@@ -40,6 +40,7 @@ function destructivelyRemoveElementFromEndOfArray (x){
   x.pop()
   return x
 }
-function removeElementFromBeginningOfArray(x){
+function removeElementFromEndOfArray(x){
+  x.slice(0, x.length - 1)
   return x
 }
